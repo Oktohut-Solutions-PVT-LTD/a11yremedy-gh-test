@@ -9,7 +9,7 @@ export default function Home() {
         <img src="/globe.svg" width="24" height="24" alt="" /> About us
       </Link>
       <form>
-        <label>Email</label>
+        <label htmlFor="email">Email</label>
         <input id="email" type="email" name="email" />
       </form>
     </div>
