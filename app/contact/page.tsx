@@ -9,9 +9,9 @@ export default function Contact() {
         <img src="/window.svg" width="24" height="24" alt="" /> Back to home
       </Link>
       <form>
-        <label>Your name</label>
+        <label htmlFor="name">Your name</label>
         <input id="name" type="text" name="name" />
-        <label>Message</label>
+        <label htmlFor="message">Message</label>
         <textarea id="message" name="message" />
       </form>
     </div>
