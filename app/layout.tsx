@@ -11,11 +11,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <div className="site-header">
+        <header className="site-header">
           <Link href="/">A11yRemedy test</Link>
-        </div>
-        <div id="content" className="site-content">{children}</div>
-        <div className="site-footer">© Oktohut</div>
+        </header>
+        <main id="content" className="site-content">{children}</main>
+        <footer className="site-footer">© Oktohut</footer>
       </body>
     </html>
   );

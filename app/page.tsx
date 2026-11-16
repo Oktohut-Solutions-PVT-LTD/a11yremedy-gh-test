@@ -6,10 +6,10 @@ export default function Home() {
       <h1>Accessibility test page</h1>
       <p>This page has a few accessibility issues on purpose.</p>
       <Link href="/about">
-        <img src="/globe.svg" width="24" height="24" /> About us
+        <img src="/globe.svg" width="24" height="24" alt="" /> About us
       </Link>
       <form>
-        <label>Email</label>
+        <label htmlFor="email">Email</label>
         <input id="email" type="email" name="email" />
       </form>
     </div>
